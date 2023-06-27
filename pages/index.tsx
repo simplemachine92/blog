@@ -24,7 +24,7 @@ export default function Home({
 
       <section className={utilStyles.headingMd}>
         <p className="italic text-center divide-y text-sm">
-          Public Goods Fundoor and Full-stack Developer <br/> ~1mm Raised for Public Goods
+          Full-stack Developer
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
