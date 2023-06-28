@@ -5,7 +5,6 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { GetStaticProps } from 'next'
-import ThemeToggler from '../components/toggle'
 
 export default function Home({
   allPostsData
@@ -24,11 +23,16 @@ export default function Home({
 
       <section className={utilStyles.headingMd}>
         <p className="italic text-center divide-y text-sm">
-          Full-stack Developer
+          Full-Stack Blockchain Developer:{" "}
+          <Link
+            href={`/resume`}
+          >
+            Resume
+          </Link>
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Posts: </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
