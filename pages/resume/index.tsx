@@ -24,8 +24,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-        {/* <h2 className="text-3xl font-bold mt-6">🛠 Skills</h2> */}
         <p className="mt-2 text-xl">
           <b>🙊 Languages:</b> <i>Rust, TypeScript, JavaScript, Solidity</i>
         </p>

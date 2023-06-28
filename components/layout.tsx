@@ -6,7 +6,7 @@ import Link from 'next/link'
 import ThemeToggler from './toggle'
 
 const name = "Justin Pulley's Blog"
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = '☯️'
 
 export default function Layout({
   children,
