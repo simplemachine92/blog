@@ -24,7 +24,7 @@ To help collect the necessary data, AAVE offers a [js package](https://github.co
 
 * We need to know exactly how much collateral we are receiving, and it is helpful to know exactly the debt to be covered.
 
-```
+```typescript
 const largestDebt: Debt = _.maxBy(
       liqParams[0],
       function (o: { debtPriceEth: number }) {
@@ -53,15 +53,9 @@ const largestDebt: Debt = _.maxBy(
 
 The last on this list was the most challenging to solve. AAVE didn’t seem to have any view functions to get the exact debtToCover or collatReceived, and the docs instead point you toward a set of formulas,.
 
-Also, depending on which conversions you use via Ethers.js or otherwise, you could end up dropping some granularity along the way:
-
-![Aave Documentation Image](https://bafybeicocy4heqght4iq6grt3mrp3z5t54n5kb57puquf5svf7uf33uvr4.ipfs.nftstorage.link/)
-
-Surely, nothing could go wrong?
-Surely, nothing could go wrong?
 After many botched calculations, I instead [deployed](https://etherscan.io/address/0xA67BdecB3FB056F314Dcc76F3ACd3B3F936C52ca) a provider contract [that grabs these params directly from AAVE.](https://github.com/simplemachine92/Gavel-Data-Contracts) If you’d like to use that to skip the headache of bigint calculations, [here’s the ABI](https://gist.github.com/simplemachine92/3e1f2568af148fa9c11ed619613c6267). I forgot to verify the contract, sorry to the eth-sdk users, but it’s pretty easy to rig this up with Typechain, and then..
 
-```
+```typescript
 const liqInfo = await liqData.liquidationCallData(
       largestCollat.collatT,
       largestDebt.debtT,

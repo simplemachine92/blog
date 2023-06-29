@@ -39,11 +39,7 @@ When you do create your contract instance, after importing an ABI manually or us
 
 In my experience, I found weird typings for contract arguments that immediately turned me away.
 
-![Weird Types](https://bafkreigbcecov2mzbgrybhxh2t3b7nbsoebershiyu2u35hnsqsm3lywfu.ipfs.nftstorage.link/)
-
 Also, the implied pattern is to create your own read/write function instances with "writeContract" or "readContract", but why go through the trouble when eth-sdk gives you tidy methods to call and correctly infers the types?
-
-![Beautiful Types](https://bafkreifnniynwkfhbf7hl2fta4nx5nzgffi3iqsk4q2gk5gtqavm63uxpm.ipfs.nftstorage.link/)
 
 ### Docs can be messy in regards to contracts.
 I understand the abi.ts in the example is meant to be demonstrative, but if you copy and paste that abi.ts, you're going to have a broken contract instance.
