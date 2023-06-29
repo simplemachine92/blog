@@ -18,9 +18,9 @@ export default function Home() {
 
           <div className="">
             <h1 className="text-3xl font-bold">👨‍💻 Justin Pulley</h1>
-            <p className="text-2xl mt-2 ">justinpulley92@gmail.com</p>
+            <p className="text-xl mt-2 ">justinpulley92@gmail.com</p>
             <Link href="/Resume_JustinP.docx">
-              <p className="text-sm mt-2">📄 Download</p>
+              <p className="text-sm mt-2">📄 Download (.docx)</p>
             </Link>
           </div>
         </div>

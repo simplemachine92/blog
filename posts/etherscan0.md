@@ -153,8 +153,8 @@ I chose [render](https://render.com/) to test deploying and accessing my API. Si
 
 ![a link](https://raw.githubusercontent.com/simplemachine92/blog/main/public/images/render.png)
 
-You will be asked to connect a github repository.
+You will be asked to connect a github repository. After that deploy processed is finished you'll be able to access your API on the open web!
 
-## Conclusion
+## Next
 
-As you can see, less than 30 lines of code in Rust can give you a Level-0 Etherscan API that fetches and serves Ethereum's latest block number every 13 seconds. I know this doesn't incorporate JSON, I just wanted to keep it simple for now, in the next version we will make it API idiomatic.
+In the next version we will make it API idiomatic (returning JSON, etc..).
