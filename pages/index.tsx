@@ -21,18 +21,10 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
 
-      <section className={utilStyles.headingMd}>
-        <p className="italic text-center divide-y text-sm">
-          Full-Stack Blockchain Developer:{" "}
-          <Link
-            href={`/resume`}
-          >
-            Resume
-          </Link>
-        </p>
-      </section>
+      {/* <section className={utilStyles.headingMd}>
+      </section> */}
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Posts: </h2>
+        <h2 className={utilStyles.heading2Xl}>Writing: </h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
