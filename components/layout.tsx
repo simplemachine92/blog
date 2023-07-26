@@ -65,8 +65,8 @@ export default function Layout({
                 <h1
                   className={
                     resolvedTheme.theme == "dark"
-                      ? "text-sm block rounded-md bg-slate-800 text-inherit px-5 py-3"
-                      : "text-sm block rounded-md bg-slate-200 text-inherit px-5 py-3"
+                      ? "text-xs sm:text-sm block rounded-md bg-slate-800 text-inherit px-5 py-3"
+                      : "text-xs sm:text-sm block rounded-md bg-slate-200 text-inherit px-5 py-3"
                   }
                 >
                   Hello 👋, I mostly write about software I'm developing. You're
