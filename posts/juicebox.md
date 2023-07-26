@@ -3,8 +3,6 @@ title: 'Juicebox Delegate Hackathon'
 date: '2023-07-26'
 ---
 
-# Juicebox / BuidlGuidl Treasury Extension Hackathon
-
 I recently competed in, and [won](https://snapshot.org/#/filipv.eth/proposal/0xcecf8f9a92cea21c55d7cdde739b1b48101b75b24f8edb945feb0cd7aad7f9c2), a [Hackathon](https://docs.juicebox.money/delegate-hackathon/) hosted by [Juicebox.money](https://juicebox.money/) and [BuidlGuidl](https://buidlguidl.com/)!
 
 The goal of the Hack was to create a [Treasury Extension](https://docs.juicebox.money/dev/build/treasury-extensions/) that extends a Juicebox [Project](https://docs.juicebox.money/dev/learn/glossary/project/) with some useful functionality, as well as a Front-End Interface, for my front-end (and in the spiriting of BuidlGuidl), I used [Scaffold-ETH 2](https://github.com/scaffold-eth/scaffold-eth-2).
