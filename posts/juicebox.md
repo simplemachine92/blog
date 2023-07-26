@@ -39,7 +39,7 @@ A project can be launched in a few ways, but in JBStraws case we call [launchPro
 
 The required data is 
 
-```
+```solidity
 struct LaunchProjectData {
     JBProjectMetadata projectMetadata;
     JBFundingCycleData data;
