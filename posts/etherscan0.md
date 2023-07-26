@@ -151,7 +151,7 @@ async fn main() {
 
 I chose [render](https://render.com/) to test deploying and accessing my API. Sign up for a free account, and once at your dashboard start a new Web Service instance.
 
-![a link](https://raw.githubusercontent.com/simplemachine92/blog/main/public/images/render.png)
+![](https://raw.githubusercontent.com/simplemachine92/blog/main/public/images/render.png)
 
 You will be asked to connect a github repository. After that deploy processed is finished you'll be able to access your API on the open web!
 
